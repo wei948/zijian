@@ -1,0 +1,25 @@
+# Muse AI - Core and cloud infrastructure
+# Compatible with Surge RULE-SET
+# Source: https://github.com/juner922/muse-loon-rules/blob/main/MuseAI.list
+# Created: 2026-11-10
+# Excludes the source's WhatsApp and Facebook/Instagram groups.
+# Shared Meta domains are retained; this is not app-level isolation.
+# Functional coverage has not been tested in Surge.
+
+# Core domains
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+
+# Cloud VM and content infrastructure
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN,hatch.ecto1.ai
+DOMAIN,node.hatch.one
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
